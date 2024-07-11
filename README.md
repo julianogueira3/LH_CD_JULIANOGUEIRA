@@ -23,7 +23,7 @@ Para executar este projeto, siga os passos abaixo:
    pip install -r requirements.txt
 
 4. Baixe o modelo spaCy em inglês:
-   ´´´´bash
+   ´´´bash
    python -m spacy download en_core_web_sm
 
 5. Execute o notebook Jupyter para visualizar as análises e a modelagem:

@@ -14,20 +14,16 @@ Este repositório contém o projeto desenvolvido para o Desafio Cientista de Dad
 Para executar este projeto, siga os passos abaixo:
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/LH_CD_JULIANOGUEIRA.git
+   git clone https://github.com/julianogueira3/LH_CD_JULIANOGUEIRA.git
    
    cd LH_CD_JULIANOGUEIRA
 
-3. Instale os pacotes necessários utilizando o pip:
+2. Instale os pacotes necessários utilizando o pip:
    ```bash
    pip install -r requirements.txt
 
-4. Baixe o modelo spaCy em inglês:
-   ```bash
-   python -m spacy download en_core_web_sm
-
-5. Execute o notebook Jupyter para visualizar as análises e a modelagem:
+3. Execute o notebook Jupyter para visualizar as análises e a modelagem:
    ```bash
    jupyter notebook relatorio_imdb.ipynb
 
-6. Para executar o modelo de regressão linear, utilize o código disponível no notebook ou carregue o arquivo modelo_imdb_linear_regression.pkl.
+4. Para executar o modelo de regressão linear, utilize o código disponível no notebook ou carregue o arquivo modelo_imdb_linear_regression.pkl.

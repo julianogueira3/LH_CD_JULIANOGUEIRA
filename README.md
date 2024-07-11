@@ -19,15 +19,15 @@ Para executar este projeto, siga os passos abaixo:
    cd LH_CD_JULIANOGUEIRA
 
 3. Instale os pacotes necessários utilizando o pip:
-   ´´´bash
+   ```bash
    pip install -r requirements.txt
 
 4. Baixe o modelo spaCy em inglês:
-   ´´´bash
+   ```bash
    python -m spacy download en_core_web_sm
 
 5. Execute o notebook Jupyter para visualizar as análises e a modelagem:
-   ´´´bash
+   ```bash
    jupyter notebook relatorio_imdb.ipynb
 
 6. Para executar o modelo de regressão linear, utilize o código disponível no notebook ou carregue o arquivo modelo_imdb_linear_regression.pkl.
